@@ -1,10 +1,43 @@
 html {
   height: 100%;
 }
+html body {
+  background-image: linear-gradient(132deg, rgb(104, 182, 132) 0%, rgb(58, 131, 139) 43%, rgb(9, 77, 146) 99%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-body {
-  background: rgb(104, 182, 132);
-  background: radial-gradient(circle, rgb(104, 182, 132) 0%, rgb(9, 77, 146) 1%, rgb(100, 178, 133) 3%, rgb(12, 80, 146) 4%, rgb(97, 175, 133) 6%, rgb(12, 80, 146) 8%, rgb(92, 169, 134) 10%, rgb(12, 80, 146) 11%, rgb(92, 169, 134) 13%, rgb(14, 82, 146) 15%, rgb(87, 164, 135) 17%, rgb(14, 82, 146) 18%, rgb(95, 172, 134) 20%, rgb(14, 82, 146) 22%, rgb(82, 158, 136) 24%, rgb(20, 89, 145) 26%, rgb(78, 153, 137) 28%, rgb(20, 89, 145) 30%, rgb(74, 149, 137) 31%, rgb(20, 89, 145) 34%, rgb(70, 145, 137) 36%, rgb(20, 89, 145) 38%, rgb(66, 140, 138) 40%, rgb(20, 89, 145) 42%, rgb(63, 137, 138) 44%, rgb(20, 89, 145) 47%, rgb(59, 133, 138) 49%, rgb(20, 89, 145) 51%, rgb(43, 115, 141) 53%, rgb(20, 89, 145) 55%, rgb(55, 127, 139) 58%, rgb(57, 131, 138) 58%, rgb(20, 89, 145) 59%, rgb(49, 121, 140) 60%, rgb(53, 125, 139) 61%, rgb(47, 119, 140) 62%, rgb(37, 108, 142) 72%, rgb(34, 105, 142) 75%, rgb(28, 98, 143) 81%, rgb(24, 94, 144) 85%, rgb(20, 89, 145) 89%, rgb(20, 89, 145) 96%);
+section {
+  background-color: white;
+  height: 600px;
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 50px;
+  display: flex;
+  padding: 50px;
+}
+section .side_col {
+  background-color: lightgray;
+  height: 100%;
+  width: 30%;
+  border-radius: 50px;
+  margin: 10px;
+}
+section .side_col img {
+  position: absolute;
+  top: 70px;
+  left: 9%;
+}
+section .row1 {
+  display: flex;
+  flex-direction: row;
+  background-color: lightgray;
+  height: 100%;
+  width: 70%;
+  border-radius: 50px;
+  margin: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
