@@ -1,3 +1,36 @@
-
+.caculator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.caculator .screen {
+  font-size: 20px;
+  color: #201C2C;
+  border-style: solid;
+  border-color: #901EB0;
+  border-radius: 10px;
+  box-shadow: #201C2C 0px 6px 12px -2px, #201C2C 0px 3px 7px -3px;
+  width: 210px;
+  margin: 7px;
+  height: 23px;
+  text-align: center;
+}
+.caculator button {
+  background-color: #901EB0;
+  width: 50px;
+  height: 50px;
+  margin: 2px;
+  border-radius: 10px;
+  text-align: center;
+  color: #FEE440;
+  font-size: 20px;
+  box-shadow: #201C2C 0px 6px 12px -2px, #201C2C 0px 3px 7px -3px;
+}
+.caculator .row5 button {
+  width: 140px;
+  color: #FEE440;
+}
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,44 @@
+$purple:#901EB0;
+$blackish:#201C2C;
+$lemon:#FEE440;
+
+
+.caculator{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:80vh;
+
+    .screen{
+        font-size:20px;
+        color:$blackish;
+        border-style:solid;
+        border-color:#901EB0;
+        border-radius:10px ;
+        box-shadow: $blackish 0px 6px 12px -2px, $blackish 0px 3px 7px -3px;
+        width:210px;
+        margin:7px;
+        height:23px;
+        text-align: center;
+        
+
+    }
+    button{
+        background-color:$purple;
+        width:50px;
+        height:50px;
+        margin:2px;
+        border-radius: 10px;    
+        text-align: center;
+        color:$lemon;
+        font-size:20px;
+        box-shadow: $blackish 0px 6px 12px -2px, $blackish 0px 3px 7px -3px;
+    }
+    .row5 button{
+        width:140px;
+        color:$lemon
+    }
+}
+
